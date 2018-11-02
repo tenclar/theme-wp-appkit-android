@@ -1,1 +1,0 @@
-#Tema para plugin WP-AppKit - Android

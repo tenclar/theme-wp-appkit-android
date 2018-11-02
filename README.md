@@ -1,3 +1,17 @@
+<!--
+Theme Name: theme-wp-appkit-android
+Description: A clean and simple iOS app news theme featuring: back button, content refresh, custom post types, embeds, infinite list, network detection, off-canvas menu, offline content, pages, posts, responsive, touch, transitions
+Version: 1.0.7
+Theme URI: https://github.com/tenclar/theme-wp-appkit-android
+Author: Uncategorized Creations, tenclar Modify		
+Author URI: http://uncategorized-creations.com	
+WP-AppKit Version Required: >= 0.6
+License: GPL-2.0+
+License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+Copyright: 2016 Uncategorized Creations	
+-->
+
+
 # theme-wp-appkit-android
 Tema para plugin wp-appkit android
 theme-wp-appkit-android is a theme for mobile apps and Progressive Web Apps (PWA) built with WP-AppKit, a WordPress plugin to create mobile apps connected to WordPress (more on that at http://getwpappkit.com).

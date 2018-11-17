@@ -40,7 +40,15 @@ define([
     /*
      * Init
      */
-    
+    App.addCustomRoute( 'home', 'home' );
+
+    App.filter( 'default-route', function( default_route ) {
+ 	   default_route = 'home';
+ 	   return default_route ;
+    });
+
+
+
     if ( Config.app_platform !== 'pwa' ) {
         /**
          * @desc Customizing the status bar to match the theme, relies on // https://github.com/apache/cordova-plugin-statusbar
@@ -130,6 +138,9 @@ define([
             }
         }
         
+        if( current_screen.item_id === 'list' && queried_screen.screen_type === 'single' ) {
+            history_action = 'push';			
+        }
 		last_history_action = history_action;
 		
         // Return the proper history action

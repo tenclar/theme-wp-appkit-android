@@ -45,6 +45,19 @@ a {
  * App structure
  */
 
+ 
+#logo{
+	
+	background-image: url('../img/ferrobox-top.png') ;
+	background-position:  center center;
+    background-repeat: no-repeat;
+    background-size: 90% 150px;
+    opacity: 1;
+    width: 100%;
+	height: 200px;	
+  display: block;
+}
+
 /* Encloses all app's elements (auto-added) */
 #app-layout {
     position: absolute;
